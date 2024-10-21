@@ -75,6 +75,6 @@ jobs:
         run: docker-compose up -d
       - name: Cypress run
         uses: cypress-io/github-action@v6
-        with:
-          build: npm install
-          start: npm start
+        # with:
+        #   build: npm install
+        #   start: npm start
