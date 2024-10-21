@@ -5,4 +5,4 @@ services:
     image: ghcr.io/maurosala/cypress-testing:latest
     container_name: app
     ports:
-      - '8080:8080'
+      - '3000:3000'

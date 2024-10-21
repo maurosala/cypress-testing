@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('App test', () => {
+describe('App', () => {
   it('passes', () => {
     cy.visit('http://localhost:3000')
     cy.get('input').type('john doe')
