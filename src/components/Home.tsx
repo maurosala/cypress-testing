@@ -38,7 +38,9 @@ const Home = () => {
         type='text'
         placeholder='Enter your name'
         onChange={(e) => setName(e.target.value)}
+        name='name'
       />
+      <input type='text' placeholder='Enter your name' name='surname' />
       <div>
         <button
           type='button'
